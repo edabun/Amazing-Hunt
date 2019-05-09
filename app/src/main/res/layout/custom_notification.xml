@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:layout_height="112dp"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/notif_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:text="lol"/>
+
+    <TextView
+        android:id="@+id/winner_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/notif_title"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:text="name"/>
+
+    <TextView
+        android:id="@+id/win_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:text="time"/>
+
+</RelativeLayout>

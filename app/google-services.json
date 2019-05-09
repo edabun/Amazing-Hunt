@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "856661186051",
+    "firebase_url": "https://amazing-hunt-7d9b1.firebaseio.com",
+    "project_id": "amazing-hunt-7d9b1",
+    "storage_bucket": "amazing-hunt-7d9b1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:856661186051:android:e5b0f80da61ba284",
+        "android_client_info": {
+          "package_name": "edjemo.icst349.amazinghunt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "856661186051-rad3qfted1kieqchek0l2s50ctsk7qs8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArh0MfouQnO-cfj34AzrgKX180xIuPmF4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

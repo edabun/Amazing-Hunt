@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical"
+    android:background="@drawable/googlemapsapikey"
+    android:orientation="vertical"
+    tools:context="edjemo.icst349.amazinghunt.Index">
+
+
+    <ImageView
+        android:id="@+id/amazing_hunt_logo"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/amazing_hunt"
+        />
+
+    <Button
+        android:id="@+id/log_in"
+        android:layout_width="228dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:background="#000033"
+        android:textColor="#FFFFFF"
+        android:fadeScrollbars="false"
+        android:text="@string/log_in"
+        android:textSize="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/sign_up"
+        android:layout_width="228dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:textSize="15dp"
+        android:layout_marginTop="8dp"
+        android:background="#000033"
+        android:textColor="#FFFFFF"
+        android:text="@string/sign_up"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/log_in"
+        app:layout_constraintVertical_bias="0.036" />
+
+
+</LinearLayout>

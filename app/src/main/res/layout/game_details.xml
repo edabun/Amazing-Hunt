@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/game_title"
+                    android:textSize="15dp"
+                    android:padding="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+        </LinearLayout>
+        <ListView
+            android:id="@+id/listView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/add_item"
+            android:choiceMode="singleChoice"
+            android:layout_marginTop="35dp"/>
+
+        <Button
+            android:id="@+id/join_game_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Join"
+            android:layout_gravity="bottom|end"/>
+
+</android.support.v7.widget.CardView>
